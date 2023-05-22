@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp">
+                <EditText
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/reg_edittextstle"
+                    android:hint="Title"
+                    android:textStyle="bold"
+                    android:id="@+id/popup_postTitle"/>
+
+                <ImageView
+                    android:id="@+id/popuserImage"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/useraddpic" />
+
+            </LinearLayout>
+            <EditText
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reg_edittextstle"
+                android:hint="Contact"
+                android:textStyle="bold"
+                android:id="@+id/popup_contact"/>
+            <EditText
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reg_edittextstle"
+                android:hint="Adddress/Landmark"
+                android:textStyle="bold"
+                android:id="@+id/popup_Address"/>
+            <EditText
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reg_edittextstle"
+                android:hint="Description"
+                android:textStyle="bold"
+                android:id="@+id/popup_Description"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                android:id="@+id/popup_image"/>
+
+            <ImageView
+
+                android:id="@+id/popup_post"
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_bg"
+                android:src="@drawable/baseline_file_upload_24" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

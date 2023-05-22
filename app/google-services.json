@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048854193192",
+    "project_id": "pawhand2",
+    "storage_bucket": "pawhand2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048854193192:android:a14d5772a4146ade0d811d",
+        "android_client_info": {
+          "package_name": "com.example.pawhand2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048854193192-a53lar0ip179tu38t52v5vqo67td46f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgejKAYfxiBMXvy_t9YTskUJmKb_KYZqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048854193192-a53lar0ip179tu38t52v5vqo67td46f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
